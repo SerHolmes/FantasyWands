@@ -1,0 +1,16 @@
+name: FantasyWands
+version: 0.5
+main: org.spigotmc.FantasyWands
+api-version: 1.12.2
+depend: [SkillAPI]
+
+commands:
+    fw:
+        description: Shows all help for FantasyWands
+        usage: /fw
+    fwlist:
+        description: List of item types for wands
+        usage: /fwlist
+    fwskills:
+        description: List of skills for wands
+        usage: /fwskills
